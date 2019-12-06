@@ -1,0 +1,17 @@
+{
+  "name": "curtain-modal",
+  "version": "0.0.10",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/curtain-modal.umd.js",
+  "module": "index.js",
+  "keywords": [
+    "angular 7",
+    "angular 8"
+  ],
+  "author": "Muhammad Taha",
+  "license": "MIT"
+
+}
