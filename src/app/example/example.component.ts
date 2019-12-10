@@ -12,6 +12,7 @@ export class ExampleComponent implements OnInit {
   constructor(public config: DialogConfig, public dialog: DialogRef) { }
 
   ngOnInit() {
+    console.log('-->', this.config)
   }
 
   onClose() {this.dialog.close('some value');}

@@ -13,6 +13,7 @@ export class AlertComponent implements OnInit {
   constructor(public config: DialogConfig, public dialog: DialogRef) { }
 
   ngOnInit() {
+    this.type = this.config.data;
   }
 
   ngAfterViewInit() {}

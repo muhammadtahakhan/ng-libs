@@ -29,7 +29,9 @@ export class DialogComponent implements AfterViewInit, OnDestroy {
   insertionPoint: InsertionDirective
 
   // and this:
-  constructor(public dialog: DialogRef, private componentFactoryResolver: ComponentFactoryResolver, private cd: ChangeDetectorRef) {}
+  constructor(public dialog: DialogRef, private componentFactoryResolver: ComponentFactoryResolver, private cd: ChangeDetectorRef) {
+    console.log('11110', this.dialog);
+  }
 
   ngAfterViewInit() {
     this.loadChildComponent(this.childComponentType);

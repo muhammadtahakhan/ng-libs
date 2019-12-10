@@ -53,21 +53,13 @@ export class AppComponent {
     // -------------------------------------------------------
     this.dialog.open(ExampleComponent, {});
     setTimeout(() => {
-      this.dialog.open(ExampleComponent, {});
+      this.dialog.open(ExampleComponent, {data: 'taha'});
     }, 3000);
     setTimeout(() => {
-      this.dialog.open(ExampleComponent, {});
-    }, 4000);
-    setTimeout(() => {
-      this.dialog.open(ExampleComponent, {});
-    }, 5000);
-
-    setTimeout(() => {
-      this.dialog.open(ExampleComponent, {});
-    }, 6000);
-    setTimeout(() => {
-      this.dialog.open(ExampleComponent, {});
+      this.dialog.open(AlertComponent, {data: 'Hello EveryOne'});
     }, 7000);
+
+
 
   }
 
